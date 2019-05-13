@@ -10,7 +10,7 @@ fertige Programme etc werden vssl. separat zur Verfügung gestellt
   - Deserialisierung -> privater leerer ctor
   - Klassendiagramm: Installer -> Individual comp. -> Code Tools: Class Designer
   - (IL Weaving)
-  -	 
+  -	Guid: im ctor this.Id = Guid.NewGuid();
 
 14.05.2019
 ==========

@@ -1,11 +1,10 @@
 ﻿namespace SingletonSample
 {
-    class DataAccessManager
+    public class DataAccessManager
     {
         private static DataAccessManager _instance;
         private DataAccessManager()
         {
-
         }
 
         public DataAccessManager Create()
