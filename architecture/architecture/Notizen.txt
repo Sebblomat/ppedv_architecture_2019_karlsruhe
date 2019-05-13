@@ -11,6 +11,7 @@ fertige Programme etc werden vssl. separat zur Verfügung gestellt
   - Klassendiagramm: Installer -> Individual comp. -> Code Tools: Class Designer
   - (IL Weaving)
   -	Guid: im ctor this.Id = Guid.NewGuid();
+  - Pattern == "Verfahren, ist standardisier-/normierbar"
 
 14.05.2019
 ==========
