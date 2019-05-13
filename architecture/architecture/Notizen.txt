@@ -1,4 +1,4 @@
-﻿Olaf Lischke
+﻿Vortragender: Olaf Lischke olafl@ppedv.de (?)
 
 WLAN: willkommenbeiuns
 Unterlagen: ModerneArchitektur_AAGuide-v2.pdf oder siehe ppedv-Zettel
@@ -7,16 +7,17 @@ fertige Programme etc werden vssl. separat zur Verfügung gestellt
 13.05.2019
 ==========
 
-Deserialisierung -> privater leerer ctor
-Klassendiagramm: Installer -> Individual comp. -> Code Tools: Class Designer
-(IL Weaving)
+  - Deserialisierung -> privater leerer ctor
+  - Klassendiagramm: Installer -> Individual comp. -> Code Tools: Class Designer
+  - (IL Weaving)
+  -	 
 
 14.05.2019
 ==========
 
-
+  - 
 
 15.05.2019
 ==========
 
-
+  -
