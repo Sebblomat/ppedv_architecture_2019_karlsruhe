@@ -129,8 +129,10 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="architecture_TemporaryKey.pfx" />
+    <None Include="ModerneArchitektur_AAGuide-v2.pdf" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Notizen.txt" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
