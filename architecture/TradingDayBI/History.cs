@@ -19,6 +19,7 @@ namespace TradingDayBI
             //attribut erbt namespace von nodename vorher. Kann man aber auch explizit schreiben
             var q = document.Root.Descendants()
                 .Where(d => d.Name.LocalName == "Cube" && d.Attributes().Any(at => at.Name == "time"))
+                //.Where(d => d.Name.LocalName == "Cube" && d.HasAttribute("time"))
                 .Select(d => new TradingDay (d));
 
             //explizit, statt wie oben angehangen. Dann oben Select(d => d);
