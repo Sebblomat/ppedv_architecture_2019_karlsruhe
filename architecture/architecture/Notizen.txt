@@ -16,6 +16,8 @@ fertige Programme etc werden vssl. separat zur Verfügung gestellt
 14.05.2019
 ==========
 
+  - SQL: nach Abfrage for xml auto --> XML file
+                                path statt auto: keine Attribute sondern einzelne Tags für die Spalten
   - 
 
 15.05.2019
