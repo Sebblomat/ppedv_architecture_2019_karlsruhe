@@ -20,7 +20,7 @@ fertige Programme etc werden vssl. separat zur Verfügung gestellt
                                 path statt auto: keine Attribute sondern einzelne Tags für die Spalten
   - PS: Enable-Migration, Add-Migration "Name", Update-Database für Migrationen
         - Update-Database -TargetMigration <Migrationname>
-
+  - XAML: strg+k,s: Surround with...
 15.05.2019
 ==========
 
