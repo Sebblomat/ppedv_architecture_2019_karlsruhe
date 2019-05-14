@@ -14,12 +14,10 @@
         <TextBlock Text="Slider:"/>
         <TextBox x:Name="textBox1" Height="20" Canvas.Left="100" Canvas.Top="40" Width="100" 
                  Text="{Binding ElementName=sliderMan, Path=Value, UpdateSourceTrigger=PropertyChanged}"/>
-        <TextBlock Text="mw height:"/>
-
+        <TextBlock Text="Main Window Height:"/>
         <TextBox x:Name="textBox2" Height="20" Canvas.Left="100" Canvas.Top="80" Width="100" 
                  Text="{Binding ElementName=mw, Path=Height, UpdateSourceTrigger=PropertyChanged}"/>
-        <TextBlock Text="mw width:"/>
-
+        <TextBlock Text="Main Window Width:"/>
         <TextBox x:Name="textBox3" Height="20" Canvas.Left="100" Canvas.Top="120" Width="100" 
                  Text="{Binding ElementName=mw, Path=Width, UpdateSourceTrigger=PropertyChanged}"/>
         <TextBox x:Name="textBox4" Height="20" Canvas.Left="100" Canvas.Top="160" Width="100"/>
