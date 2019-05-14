@@ -10,5 +10,6 @@ namespace TradingDayBI
     {
         public double Rate { get; set; }
         public string Symbol { get; set; }
+        public int ID { get; set; }
     }
 }

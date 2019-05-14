@@ -26,5 +26,6 @@ namespace TradingDayBI
 
         public DateTime Date { get; set; }
         public List<Currency> Currencies { get; set; }
+        public int ID { get; set; }
     }
 }

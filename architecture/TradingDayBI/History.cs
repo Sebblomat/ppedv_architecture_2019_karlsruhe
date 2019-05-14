@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
@@ -9,7 +8,14 @@ namespace TradingDayBI
     {
         public History(string url)
         {
-            this.TradingDays = GetData(url);
+            TradingDays = GetData(url);
+
+            //following will only work when DB configured
+
+            //var context = new DataManager();
+            //context.TradingDays.AddRange(TradingDays);
+            //context.Currencies.AddRange()
+            //context.SaveChanges();
         }
 
         private List<TradingDay> GetData(string url)
@@ -20,7 +26,7 @@ namespace TradingDayBI
             var q = document.Root.Descendants()
                 .Where(d => d.Name.LocalName == "Cube" && d.Attributes().Any(at => at.Name == "time"))
                 //.Where(d => d.Name.LocalName == "Cube" && d.HasAttribute("time"))
-                .Select(d => new TradingDay (d));
+                .Select(d => new TradingDay(d));
 
             //explizit, statt wie oben angehangen. Dann oben Select(d => d);
             //foreach (var item in q)
