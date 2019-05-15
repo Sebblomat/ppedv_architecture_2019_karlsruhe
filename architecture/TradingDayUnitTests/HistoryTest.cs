@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TradingDayBI;
+using TradingDayBl;
 
 namespace TradingDayUnitTests
 {

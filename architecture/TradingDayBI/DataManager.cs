@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace TradingDayBI
+namespace TradingDayBl
 {
     public class DataManager : DbContext
     {

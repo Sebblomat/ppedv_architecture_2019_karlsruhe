@@ -17,11 +17,14 @@ fertige Programme etc werden vssl. separat zur Verfügung gestellt
 ==========
 
   - SQL: nach Abfrage for xml auto --> XML file
-                                path statt auto: keine Attribute sondern einzelne Tags für die Spalten
+        - path statt auto: keine Attribute sondern einzelne Tags für die Spalten
   - PS: Enable-Migration, Add-Migration "Name", Update-Database für Migrationen
         - Update-Database -TargetMigration <Migrationname>
   - XAML: strg+k,s: Surround with...
+
 15.05.2019
 ==========
 
-  -
+  - **PropertyChanged.Fody** NuGet Package webt nachträglich OnPropertyChanged in Klassen ein, die INotifyPropertyChanged nutzen
+  - (https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases)
+  - 

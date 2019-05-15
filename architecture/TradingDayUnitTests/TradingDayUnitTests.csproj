@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TradingDayBI\TradingDayBI.csproj" />
+    <ProjectReference Include="..\TradingDayBI\TradingDayBl.csproj" />
   </ItemGroup>
 
 </Project>

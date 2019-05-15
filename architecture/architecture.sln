@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "architecture", "architectur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonSample", "SingletonSample\SingletonSample.csproj", "{CD5706F3-E0FA-4715-84BA-FEEBCA9FD726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingDayBI", "TradingDayBI\TradingDayBI.csproj", "{31E85556-D98C-430D-9782-EDE00AB5BC48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingDayBl", "TradingDayBI\TradingDayBl.csproj", "{31E85556-D98C-430D-9782-EDE00AB5BC48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingDayUnitTests", "TradingDayUnitTests\TradingDayUnitTests.csproj", "{F4ECAB95-E6C9-45D9-8E41-66EC958D2479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingDayUnitTests", "TradingDayUnitTests\TradingDayUnitTests.csproj", "{F4ECAB95-E6C9-45D9-8E41-66EC958D2479}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBasics", "WpfApp1\WpfBasics.csproj", "{F32ACDCB-4E4B-4E15-A600-46E7B479C961}"
 EndProject
