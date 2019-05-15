@@ -27,4 +27,8 @@ fertige Programme etc werden vssl. separat zur Verfügung gestellt
 
   - **PropertyChanged.Fody** NuGet Package webt nachträglich OnPropertyChanged in Klassen ein, die INotifyPropertyChanged nutzen
   - (https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases)
-  - 
+  - (https://www.linux.com/learn/how-run-your-own-git-server + https://hackaday.com/2018/06/27/keep-it-close-a-private-git-server-crash-course/)
+  - WebApi: Controller enden immer mit "Controller"
+  - Get-Methoden beliebig überladbar (obwohl dann nicht mehr direkt REST-Konform), im Browser dann über urlpath?param=value explizit aufzurufen
+  - System.Net.Http.HttpClient
+  - ASP MVC: 
